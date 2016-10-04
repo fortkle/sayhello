@@ -1,6 +1,9 @@
 #!/usr/bin/env php
 <?php
 
+// Recipe include path
+set_include_path(__DIR__ . '/../' . PATH_SEPARATOR . get_include_path());
+
 require_once 'src/sayHello.php';
 
 sayHello();
