@@ -1,0 +1,16 @@
+{
+    "name": "fortkle/sayhello",
+    "description": "Say Hello",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SayHello\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/sayhello"
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
